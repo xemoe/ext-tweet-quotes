@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Modify tweet status to quotes",
   "permissions": [
-    "activeTab"
+    "https://twitter.com/*"
   ],
   "action": {
     "default_popup": "",
@@ -22,7 +22,5 @@
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": [
-    "tabs"
-  ]
+  "permissions": ["activeTab"]
 }
